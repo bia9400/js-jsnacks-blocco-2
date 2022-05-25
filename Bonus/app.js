@@ -45,6 +45,7 @@ mainButton.addEventListener("click", function () {
     let lunghezza1 = newArray.length
     let lunghezza2 = newArray2.length
     let mainPrint = document.querySelector(".mainPrint")
+    mainPrint.innerHTML=""
     if (lunghezza1 == lunghezza2) {
         mainPrint.innerHTML += "I due vettori sono uguali"
 
