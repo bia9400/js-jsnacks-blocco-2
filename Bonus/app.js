@@ -54,7 +54,7 @@ mainButton.addEventListener("click", function () {
        for(let i=1; i<x ;i++){
            newArray.push(Math.round(Math.random() * 100) + 1)
        }
-       mainPrint.innerHTML += newArray
+       mainPrint.innerHTML += "Il primo vettore, sistemato diviene [ "+newArray+" ]"
     }
     else  {
         let x= lunghezza1-lunghezza2;
@@ -62,6 +62,6 @@ mainButton.addEventListener("click", function () {
            newArray2.push(Math.round(Math.random() * 100) + 1)
            
        }
-       mainPrint.innerHTML += newArray2
+       mainPrint.innerHTML += "Il secondo vettore, sistemato diviene [ "+newArray2+" ]"
     }
 })
